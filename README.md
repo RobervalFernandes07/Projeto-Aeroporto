@@ -33,12 +33,12 @@ O projeto é composto pelos seguintes arquivos:
   2.Crie um banco de dados chamado bancoempresaaerea.
   3.Crie as tabelas necessárias (Pessoa, Piloto, etc.) conforme sua estrutura.
 
-#Como usar 
+## Como usar 
 1. Execute o programa :
    python main.py
 2. Siga as instruções na tela para cadastrar pilotos, passageiros e passagens.
 
-#Exemplo de uso 
+## Exemplo de uso 
 piloto = Piloto("Vinicius", "18999", "123456789", "12345", 1921.2)
 piloto.insert(conexao)  # Insere o piloto no banco de dados
 piloto.select(conexao)  # Lista todos os pilotos cadastrados
